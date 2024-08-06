@@ -1,0 +1,14 @@
+[build]
+  # The directory where your built files are output
+  publish = "dist"
+  
+  # The command to run to build your project
+  command = "npm run build" # or "yarn build"
+
+# Optional: Add redirects or headers
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
